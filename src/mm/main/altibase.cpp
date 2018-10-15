@@ -44,12 +44,12 @@ int main(SInt argc, SChar *argv[])
         {
             case 'a':  // called from admin
                 break;
-            case 'p':  // ´Ù´Ü°è startup
+            case 'p':  // ë‹¤ë‹¨ê³„ startup
                 break;
-            case 'd':  // È¨ µğ·ºÅä¸® ¸í½Ã
+            case 'd':  // í™ˆ ë””ë ‰í† ë¦¬ ëª…ì‹œ
                 //idlOS::strncpy(mmiMgr::mHomeDir, optarg, 255);
                 break;
-            case 'f':  // Conf È­ÀÏ ¸í½Ã
+            case 'f':  // Conf í™”ì¼ ëª…ì‹œ
                 //idlOS::strncpy(mmiMgr::mConfFile, optarg, 255);
                 break;
             case 'n':
